@@ -1,0 +1,136 @@
+.sec1 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.sec1 img {
+    height: 80vh;
+    z-index: 80;
+    position: absolute;
+    bottom: -1vh;
+    right: 3.5vw;
+    transition: all 0.5s ease;
+}
+.sh-lk {
+    z-index: 70;
+    background: url(../img/bg.jpg);
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    left: -15vw;
+    top: -1vw;
+    transition: all 0.3s ease;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: bgmove 20s infinite linear;
+}
+.bluecircle {
+    position: absolute;
+    z-index: 75;
+    background: #00bec7;;
+    border-radius: 50%;
+    left: 47vw;
+    top: 5vh;
+    width: 17vw;
+    height: 17vw;
+    transition: all 0.5s ease;
+}
+.circle {
+    position: absolute;
+    right: 8vw;
+    top: 36vh;
+    width: 26vw;
+    height: 26vw;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.circle div {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.3vh solid #005584;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+.half-circle {
+    bottom: 3vh;
+    left: 3vh;
+    position: absolute;
+    width: 15vw;
+    height: 7.5vw;
+
+}
+.half-circle div {
+    background: linear-gradient(-90deg, #482062, #140220);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+.half-circle div:before {
+    content: ' ';
+    width: 11vw;
+    height: 11vw;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    position: absolute;  
+}
+.half-circle:after {
+    content: ' ';
+    position: absolute;
+    background: #fff;
+    width: 15vw;
+    height: 7.5vw;   
+    top:100%;
+}
+.secondbluecircle {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    background:linear-gradient(-45deg, #005584, #140220) ;
+    border-radius: 50%;
+    right: -5vw;
+    bottom:  -5vw;
+    transition: all 0.5s ease;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes bgmove {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -100% 100%;
+    }
+}
+@keyframes grow {
+    from {
+        width: 3vw;
+        height: 3vw;
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    to {
+        width: 26vw;
+        height: 26vw;
+        opacity: 0;
+    }
+}

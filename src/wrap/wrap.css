@@ -1,0 +1,6 @@
+.wrap {
+    width: 100vw;
+    height: 200vw;
+   /* background:#f5dacb;*/
+    transition: all 1s ease;
+} 

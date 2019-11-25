@@ -1,0 +1,49 @@
+.sec2 {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s ease;
+}
+.sec2 h1 {
+    margin-top: 8vh;
+    display: block;
+    width:63vw;
+    text-align: center;
+}
+.page {
+    width: 30vw;
+    display: inline-block;
+    margin: 3vw 2vw;
+}
+.page a {
+    width: 100%;
+}
+.page a img {
+    transition: all 0.5s ease;
+}
+.page a img:hover {
+    transform: scale(1.03);
+}
+.page a img {
+    width: 30vw;
+}
+.pages {
+    position: absolute;
+    left: 50%;
+    width: 68vw;
+    transform: translate(-50%, 0);
+}
+.source {
+    color: #000;
+    margin-top: 2vh;
+    display: block;
+    width: 30vw;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-size: 0.9vw;
+    letter-spacing: 0.05vw;
+}
+.source:hover {
+    letter-spacing: 0.1vw;
+}
