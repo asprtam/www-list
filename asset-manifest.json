@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cbf24c57.chunk.css",
+    "main.js": "/static/js/main.8f9b1007.chunk.js",
+    "main.js.map": "/static/js/main.8f9b1007.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.398a2ef4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.398a2ef4.js.map",
+    "static/js/2.fc74f443.chunk.js": "/static/js/2.fc74f443.chunk.js",
+    "static/js/2.fc74f443.chunk.js.map": "/static/js/2.fc74f443.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8ace02dd900d7aa9cc21af4f9af207ab.js": "/precache-manifest.8ace02dd900d7aa9cc21af4f9af207ab.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cbf24c57.chunk.css.map": "/static/css/main.cbf24c57.chunk.css.map",
+    "static/media/sec1.css": "/static/media/bg.0cec2c4e.jpg",
+    "static/media/kawiarnia.png": "/static/media/kawiarnia.b87dea10.png",
+    "static/media/main-img2.png": "/static/media/main-img2.4ed774b6.png",
+    "static/media/sunGradient.png": "/static/media/sunGradient.96a74e30.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.398a2ef4.js",
+    "static/js/2.fc74f443.chunk.js",
+    "static/css/main.cbf24c57.chunk.css",
+    "static/js/main.8f9b1007.chunk.js"
+  ]
+}
